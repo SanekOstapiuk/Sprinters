@@ -1,0 +1,21 @@
+@import './reset.css';
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --neutrals-100: #25324B;
+  --neutrals-80: #515B6F;
+  --neutrals-60: #7C8493;
+  --neutrals-20: #D6DDEB;
+  --neutrals-0: #FFF;
+  --brands-primary: #4640DE;
+  --accents-blue: #4640DE;
+  --grey: #D6DDEB;
+  --blue: #26a4ff;
+  --soap: #D0D4EA;
+  --dark-gunmental: #202430;
+}
