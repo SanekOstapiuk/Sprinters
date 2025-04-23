@@ -1,7 +1,7 @@
 .people-say {
   padding-top: 72px;
   padding-bottom: 45px;
-  background-color: var(--neutrals-10);
+  background: url("/bg-testimonials.png") no-repeat right center, var(--neutrals-10);
 }
 
 .wrapper {
