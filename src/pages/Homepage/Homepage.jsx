@@ -5,6 +5,7 @@ import CompanyProfile from '../../components/CompanyProfile'
 import Container from '../../components/Container'
 import About from '../../components/About'
 import SocialMedia from '../../components/SocialMedia'
+import OurDrivers from '../../widgets/OurDrivers'
 
 import styles from './Homepage.module.css'
 const cx = classNames.bind(styles)
@@ -23,6 +24,7 @@ const Homepage = () => {
           Aside block will be soon
         </aside>
       </Container>
+      <OurDrivers />
     </>
   )
 }

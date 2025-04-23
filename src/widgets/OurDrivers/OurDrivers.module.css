@@ -1,0 +1,24 @@
+.drivers {
+  padding-bottom: 75px;
+  margin-bottom: 75px;
+  border-bottom: 1px solid var(--neutrals-20);
+}
+
+.title {
+  margin-bottom: 11px;
+  float: left;
+}
+
+.all-drivers {
+  float: right;
+  line-height: 2;
+  color: var(--brands-primary);
+  font-weight: 600;
+}
+
+.drivers-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  clear: both;
+}

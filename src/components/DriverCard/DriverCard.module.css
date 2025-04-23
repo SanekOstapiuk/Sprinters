@@ -1,0 +1,45 @@
+.driver-card {
+  text-align: center;
+  padding: 27px 27px 24px;
+  border: 1px solid var(--neutrals-20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.experience {
+  color: var(--neutrals-60);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.social {
+  font-size: 0;
+}
+
+.social-link {
+  font-size: 0;
+  line-height: 1;
+  padding: 0 8px;
+}
+
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.social-link:hover .social-icon {
+  color: var(--blue);
+}

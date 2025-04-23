@@ -11,7 +11,7 @@ export const header = {
   altText: 'Sprinters, перевізники Європи'
 }
 
-export const breadcrunbs = ['Головна', 'Профіль перевізника', 'Stripe']
+export const breadcrumbs = ['Головна', 'Профіль перевізника', 'Stripe']
 
 export const companyProfile = {
   logoSrc: '/stripe-logo.png',

@@ -14,7 +14,6 @@
   --neutrals-10: #F8F8FD;
   --neutrals-0: #FFF;
   --brands-primary: #4640DE;
-  --grey: #D6DDEB;
   --blue: #26a4ff;
   --dark-blue: #302c9d;
   --soap: #D0D4EA;
@@ -22,9 +21,12 @@
 }
 
 body {
+  color: var(--neutrals-80)
+}
+
+a, li, p, span {
   font-size: 16px;
   line-height: 1.6;
-  color: var(--neutrals-80)
 }
 
 h1,
