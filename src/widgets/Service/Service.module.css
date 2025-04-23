@@ -1,0 +1,31 @@
+.service {
+  margin-bottom: 82px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.list {
+  display: flex;
+  column-gap: 32px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-right: 12px;
+}
+
+.service-icon {
+  margin-right: 12px;
+  min-width: 48px;
+}

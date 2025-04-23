@@ -10,7 +10,8 @@ const cx = classNames.bind(styles)
 
 const OurDrivers = () => {
   const [showAll, setShowAll] = useState(false)
-  const showDrivers = showAll ? ourDrivers.drivers : ourDrivers.drivers.slice(0, 5)
+  const firstDrivers = ourDrivers.drivers.slice(0, 5)
+  const showDrivers = showAll ? ourDrivers.drivers : firstDrivers
 
   return (
     <Container>
