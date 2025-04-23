@@ -7,11 +7,12 @@ export const header = {
   ],
   createBtn: 'Створити профіль',
   loginBtn: 'Увійти',
-  logo: '/logo.svg',
+  logo: '/logo.png',
   altText: 'Sprinters, перевізники Європи'
 }
 
 export const breadcrumbs = ['Головна', 'Профіль перевізника', 'Stripe']
+export const defaultPeoplePhoto = '/default.png'
 
 export const companyProfile = {
   logoSrc: '/stripe-logo.png',

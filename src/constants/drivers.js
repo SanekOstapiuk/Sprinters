@@ -1,4 +1,4 @@
-export const ourDrivers = {
+const ourDrivers = {
   title: 'Наші водії',
   allDriversLabel: 'Усі водії',
   iconsColor: '#515B6F',
@@ -108,4 +108,4 @@ export const ourDrivers = {
   ]
 }
 
-export const defaultDriversPhoto = '/drivers/default.png'
+export default ourDrivers

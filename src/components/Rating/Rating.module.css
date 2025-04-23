@@ -1,0 +1,28 @@
+.star-wrapper {
+  position: relative;
+  height: 18px;
+  width: 90px;
+}
+
+.grey-stars,
+.blue-stars {
+  position: absolute;
+  mask-image: url('/star.svg');
+  -webkit-mask-image: url('/star.svg');
+  mask-repeat: repeat-x;
+}
+
+.grey-stars {
+  background-color: var(--neutrals-20);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.blue-stars {
+  background-color: var(--brands-primary);
+  height: 100%;
+  z-index: 2;
+}

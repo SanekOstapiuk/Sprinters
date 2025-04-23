@@ -7,6 +7,7 @@ import About from '../../components/About'
 import SocialMedia from '../../components/SocialMedia'
 import OurDrivers from '../../widgets/OurDrivers'
 import Service from '../../widgets/Service'
+import Testimonials from '../../widgets/Testimonials'
 
 import styles from './Homepage.module.css'
 const cx = classNames.bind(styles)
@@ -27,6 +28,7 @@ const Homepage = () => {
       </Container>
       <OurDrivers />
       <Service />
+      <Testimonials />
     </>
   )
 }

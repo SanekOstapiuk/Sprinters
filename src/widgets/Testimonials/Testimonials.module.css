@@ -1,0 +1,36 @@
+.people-say {
+  padding-top: 72px;
+  padding-bottom: 45px;
+  background-color: var(--neutrals-10);
+}
+
+.wrapper {
+  display: flex;
+  column-gap: 32px;
+}
+
+.title {
+  margin-bottom: 22px;
+}
+
+.highlighted-text {
+  color: var(--blue);
+  font-size: inherit;
+}
+
+.description {
+  margin-bottom: 42px;
+  color: var(--neutrals-100);
+}
+
+.review-btn {
+  font-size: 18px;
+  padding: 13px 28px;
+  line-height: 1.4;
+  border-radius: 6px;
+}
+
+.about {
+  width: 37%;
+  max-width: 422px;
+}

@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind'
 import {useState} from 'react'
 
-import {ourDrivers} from '../../constants/drivers'
+import ourDrivers from '../../constants/drivers'
 import Container from '../../components/Container'
 import DriverCard from '../../components/DriverCard'
 

@@ -1,0 +1,48 @@
+.card {
+  padding: 30px 20px 20px;
+  box-shadow: 0 4px 16px 0 #25324B26;
+  background-color: var(--neutrals-0);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 353px;
+  width: 100%;
+  min-height: 411px;
+}
+
+.photo {
+  float: left;
+  margin-right: 22px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 600;
+  color: var(--neutrals-100);
+  margin-bottom: 8px;
+}
+
+.city {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brands-primary);
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 14px;
+  color: var(--neutrals-60);
+}
+
+.description {
+  clear: both;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 9;
+}

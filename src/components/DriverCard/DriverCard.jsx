@@ -2,12 +2,12 @@ import classNames from 'classnames/bind'
 import PropTypes from 'prop-types'
 
 import Icon from '../Icon'
-import {defaultDriversPhoto} from '../../constants/drivers'
+import {defaultPeoplePhoto} from '../../constants/data'
 
 import styles from './DriverCard.module.css'
 const cx = classNames.bind(styles)
 
-const DriverCard = ({ photo = defaultDriversPhoto, name, experience, social, iconsColor }) => {
+const DriverCard = ({ photo = defaultPeoplePhoto, name, experience, social, iconsColor }) => {
   return (
     <div className={cx('driver-card')}>
       <div className={cx('card-content')}>
