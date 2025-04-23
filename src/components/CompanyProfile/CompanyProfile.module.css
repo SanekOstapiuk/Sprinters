@@ -43,3 +43,11 @@
 .mail {
   margin-right: 32px;
 }
+
+.icon {
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover .icon {
+  color: var(--blue);
+}

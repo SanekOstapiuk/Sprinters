@@ -13,7 +13,7 @@
 }
 
 .main:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--blue);
 }
 
 .main-revert {

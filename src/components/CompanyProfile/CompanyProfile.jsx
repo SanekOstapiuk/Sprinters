@@ -1,10 +1,10 @@
 import classNames from 'classnames/bind'
 
+import Icon from '../Icon'
 import Container from '../Container'
 import Breadcrumbs from '../Breadcrumbs'
 import AchievementCard from '../AchievementCard'
 import { companyProfile } from '../../constants/data'
-import Icon from '../Icon'
 
 import styles from './CompanyProfile.module.css'
 const cx = classNames.bind(styles)
@@ -30,12 +30,12 @@ const CompanyProfile = () => {
             <span className={cx('trips')}>{countTrips} {tripsLabel}</span>
           </h1>
           <div className={cx('contacts')}>
-            <a href={contacts.mail.link} target='_blank' className={cx('mail')}>
-              <Icon name={contacts.mail.icon} />
+            <a href={contacts.mail.link} target='_blank' className={cx('contact-link', 'mail')}>
+              <Icon name={contacts.mail.icon} className={cx('icon')}/>
               <span className={cx('contact-value')}>{contacts.mail.value}</span>
             </a>
-            <a href={`tel:${contacts.phone.link}`}>
-              <Icon name={contacts.phone.icon} />
+            <a href={`tel:${contacts.phone.link}`} className={cx('contact-link')}>
+              <Icon name={contacts.phone.icon} className={cx('icon')}/>
               <span className={cx('contact-value')}>{contacts.phone.value}</span>
             </a>
           </div>

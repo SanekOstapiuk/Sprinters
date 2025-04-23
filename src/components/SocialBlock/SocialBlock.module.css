@@ -1,0 +1,38 @@
+.social {
+  margin-bottom: 40px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.social-link {
+  padding: 7px;
+  border: 1px solid var(--brands-primary);
+  line-height: 1;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.social-link:hover .social-icon {
+  color: var(--blue);
+}
+
+.social-value {
+  vertical-align: top;
+  margin-left: 18px;
+  display: inline-block;
+  line-height: 1.6;
+}

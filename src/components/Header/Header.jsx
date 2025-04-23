@@ -20,7 +20,9 @@ const Header = () => {
   return (
     <div className={cx('header')}>
       <Container className={cx('wrapper')}>
-        <img className={cx('image')} src={logo} alt={altText}/>
+        <a href='/' className={cx('logo')}>
+          <img className={cx('image')} src={logo} alt={altText}/>
+        </a>
         <Navigation menu={menu}/>
         <div className={cx('action-btns')}>
           <Button theme='main-revert' className={cx('create-btn')}>

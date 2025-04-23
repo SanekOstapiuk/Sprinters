@@ -1,0 +1,15 @@
+.content-wrapper {
+  display: flex;
+  column-gap: 64px;
+  margin-bottom: 147px;
+}
+
+.main {
+  width: 65%;
+  max-width: 752px;
+}
+
+.aside {
+  width: 35%;
+  max-width: 376px;
+}
