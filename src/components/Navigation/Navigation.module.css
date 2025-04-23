@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  column-gap: 24px;
+}
+
+.menu-link {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  padding: 24px 0;
+  font-weight: 600;
+}
+
+.menu-link:hover,
+.menu-link.active {
+  border-bottom: 4px solid var(--brands-primary);
+  color: var(--brands-primary);
+}

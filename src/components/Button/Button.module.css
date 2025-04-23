@@ -1,0 +1,32 @@
+.button {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.main {
+  background-color: var(--brands-primary);
+  color: var(--neutrals-0);
+  font-weight: 700;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease;
+}
+
+.main:hover {
+  background-color: var(--dark-blue);
+}
+
+.main-revert {
+  background-color: transparent;
+  color: var(--brands-primary);
+  font-weight: 400;
+  padding: 4px 12px;
+  border: 1px solid var(--brands-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 16px;
+}
+
+.main-revert:hover {
+  background-color: var(--brands-primary);
+  color: var(--neutrals-0);
+}

@@ -1,0 +1,49 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--neutrals-0);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.action-btns {
+  margin-left: auto;
+}
+
+.image {
+  min-width: 160px;
+}
+
+.action-btns .create-btn {
+  border: none;
+  border-bottom: 4px solid transparent;
+  font-weight: 700;
+  padding: 22px 0;
+  transition: border-color 0.3s ease;
+}
+
+.action-btns .create-btn:hover {
+  background-color: transparent;
+  border-color: var(--brands-primary);
+  color: var(--brands-primary);
+}
+
+.login-btn {
+  margin-left: 16px;
+  position: relative;
+}
+
+.login-btn:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  left: -16px;
+  top: 0;
+  background-color: var(--neutrals-20);
+}

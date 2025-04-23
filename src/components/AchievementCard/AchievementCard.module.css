@@ -1,0 +1,29 @@
+.card {
+  display: inline-block;
+  max-width: 250px;
+  vertical-align: top;
+}
+
+.card:not(:last-child) {
+  margin-right: 32px;
+}
+
+.icon-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--neutrals-0);
+  margin-right: 16px;
+}
+
+.content-wrapper {
+  display: inline-block;
+}
+
+.card-value {
+  display: inline-block;
+  color: var(--neutrals-100);
+  font-weight: 600;
+}

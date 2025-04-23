@@ -1,0 +1,17 @@
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.item:not(:last-child):after {
+  content: '/';
+  margin-left: 4px;
+}
+
+.item {
+  margin-right: 4px;
+}
+
+.item:last-child {
+  margin-right: 0;
+  color: var(--dark-gunmental);
+}

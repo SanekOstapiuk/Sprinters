@@ -11,11 +11,52 @@
   --neutrals-80: #515B6F;
   --neutrals-60: #7C8493;
   --neutrals-20: #D6DDEB;
+  --neutrals-10: #F8F8FD;
   --neutrals-0: #FFF;
   --brands-primary: #4640DE;
-  --accents-blue: #4640DE;
   --grey: #D6DDEB;
   --blue: #26a4ff;
+  --dark-blue: #302c9d;
   --soap: #D0D4EA;
   --dark-gunmental: #202430;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--neutrals-80)
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h1,
+h2 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+a {
+  font-weight: 600;
+  color: var(--brands-primary);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--brands-primary);
 }
