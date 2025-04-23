@@ -10,6 +10,7 @@
   --neutrals-100: #25324B;
   --neutrals-80: #515B6F;
   --neutrals-60: #7C8493;
+  --neutrals-40: #A8ADB7;
   --neutrals-20: #D6DDEB;
   --neutrals-10: #F8F8FD;
   --neutrals-0: #FFF;
@@ -18,6 +19,7 @@
   --dark-blue: #302c9d;
   --soap: #D0D4EA;
   --dark-gunmental: #202430;
+  --onyx: #363a45;
 }
 
 body {
@@ -51,6 +53,12 @@ h3 {
 h4 {
   font-size: 24px;
   line-height: 1.2;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
 }
 
 a {

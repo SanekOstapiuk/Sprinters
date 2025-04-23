@@ -1,0 +1,11 @@
+.input {
+  padding: 11px 15px;
+  background-color: var(--neutrals-0);
+  margin-right: 8px;
+  border: 1px solid transparent;
+  line-height: 1.6;
+}
+
+.input:focus {
+  border: 1px solid var(--blue);
+}

@@ -13,6 +13,7 @@ export const header = {
 
 export const breadcrumbs = ['Головна', 'Профіль перевізника', 'Stripe']
 export const defaultPeoplePhoto = '/default.png'
+export const sendBtn = 'Надіслати'
 
 export const companyProfile = {
   logoSrc: '/stripe-logo.png',

@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind'
 
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 import CompanyProfile from '../../components/CompanyProfile'
 import Container from '../../components/Container'
 import About from '../../components/About'
@@ -29,6 +30,7 @@ const Homepage = () => {
       <OurDrivers />
       <Service />
       <Testimonials />
+      <Footer />
     </>
   )
 }

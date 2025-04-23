@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Mousewheel } from 'swiper/modules'
+import { Pagination, Mousewheel, Autoplay } from 'swiper/modules'
 
 import TestimonialsCard from '../TestimonialsCard'
 
@@ -13,12 +13,16 @@ const TestimonialSlider = ({peoples}) => {
   return (
     <div className={cx('slider')}>
       <Swiper
-        modules={[Mousewheel, Pagination]}
+        modules={[Mousewheel, Pagination, Autoplay]}
         spaceBetween={16}
         slidesPerView={2}
         pagination={{ clickable: true }}
         grabCursor={true}
         mousewheel={true}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
       >
         {peoples.map((people, index) => (
           <SwiperSlide key={index}>

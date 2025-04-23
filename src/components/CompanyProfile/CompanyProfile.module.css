@@ -2,7 +2,10 @@
   padding-top: 120px;
   padding-bottom: 87px;
   margin-bottom: 72px;
-  background-color: var(--neutrals-10);
+  background:
+    url("/lines-left.png") no-repeat left top / 17%,
+    url("/lines-right.png") no-repeat right bottom / 38%,
+    var(--neutrals-10);
 }
 
 .stripe-logo {
