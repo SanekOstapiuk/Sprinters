@@ -1,7 +1,8 @@
 @import './reset.css';
+@import './fonts.css';
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +24,7 @@
 }
 
 body {
+  padding-top: 78px;
   color: var(--neutrals-80)
 }
 
@@ -39,10 +41,18 @@ h4 {
   color: var(--neutrals-100);
 }
 
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
+}
+
 h1,
 h2 {
   font-size: 48px;
   line-height: 1.1;
+}
+
+ {
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {
@@ -51,6 +61,7 @@ h3 {
 }
 
 h4 {
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   line-height: 1.2;
 }

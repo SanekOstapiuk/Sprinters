@@ -18,7 +18,7 @@ const Service = () => {
         {comfort?.map((item, index) => (
           <li className={cx('item')} key={index}>
             <Icon name={item.icon} size='48' color={iconsColor} className={cx('service-icon')}/>
-            <h4>{item.label}</h4>
+            <h4 className={cx('label')}>{item.label}</h4>
           </li>
         ))}
       </ul>

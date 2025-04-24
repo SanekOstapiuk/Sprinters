@@ -23,7 +23,7 @@ const Footer = () => {
   } = footerData
 
   return (
-    <section className={cx('footer')}>
+    <footer className={cx('footer')}>
       <Container className={cx('footer-wrapper')}>
         <div className={cx('footer-top')}>
           <div className={cx('inform')}>
@@ -92,7 +92,7 @@ const Footer = () => {
           </ul>
         </div>
       </Container>
-    </section>
+    </footer>
   )
 }
 

@@ -18,7 +18,7 @@ const Testimonials = () => {
   } = testimonials
 
   return (
-    <div className={cx('people-say')}>
+    <section className={cx('people-say')}>
       <Container className={cx('wrapper')}>
         <div className={cx('about')}>
           <h2 className={cx('title')}>
@@ -32,7 +32,7 @@ const Testimonials = () => {
         </div>
         <TestimonialSlider peoples={peoples}/>
       </Container>
-    </div>
+    </section>
   )
 }
 

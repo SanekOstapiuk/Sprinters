@@ -1,5 +1,5 @@
 .company-profile {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 87px;
   margin-bottom: 72px;
   background:
@@ -28,15 +28,16 @@
 }
 
 .trips {
-  display: inline-block;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
+  display: inline-block;
   line-height: 1.6;
   vertical-align: top;
   margin-left: 12px;
   padding: 4px 12px;
   color: var(--brands-primary);
   border: 1px solid var(--brands-primary);
-  font-weight: 400;
 }
 
 .contact-value {

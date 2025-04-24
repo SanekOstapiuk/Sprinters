@@ -46,3 +46,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 9;
 }
+
+.people-info {
+  font-family: 'Roboto', sans-serif;
+}

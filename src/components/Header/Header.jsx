@@ -18,7 +18,7 @@ const Header = () => {
   } = header
 
   return (
-    <div className={cx('header')}>
+    <header className={cx('header')}>
       <Container className={cx('wrapper')}>
         <a href='/' className={cx('logo')}>
           <img className={cx('image')} src={logo} alt={altText}/>
@@ -33,7 +33,7 @@ const Header = () => {
           </Button>
         </div>
       </Container>
-    </div>
+    </header>
   )
 }
 

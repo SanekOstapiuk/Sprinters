@@ -8,6 +8,7 @@
   transition: border-color 0.3s ease, color 0.3s ease;
   padding: 24px 0;
   font-weight: 600;
+  color: var(--neutrals-80);
 }
 
 .menu-link:hover,

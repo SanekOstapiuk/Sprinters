@@ -9,7 +9,7 @@ const cx = classNames.bind(styles)
 
 const TestimonialsCard = ({photo = defaultPeoplePhoto, name, city, date, text, rating = 0}) => {
   return (
-    <section className={cx('card')}>
+    <div className={cx('card')}>
       <div className={cx('card-content')}>
         <img
           width={72}
@@ -26,7 +26,7 @@ const TestimonialsCard = ({photo = defaultPeoplePhoto, name, city, date, text, r
         <p className={cx('description')}>{text}</p>
       </div>
       <Rating rating={rating} />
-    </section>
+    </div>
   )
 }
 
