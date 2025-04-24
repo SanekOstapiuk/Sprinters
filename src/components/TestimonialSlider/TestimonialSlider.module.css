@@ -1,5 +1,5 @@
 .slider {
-  width: 63%;
+  width: 62%;
 }
 .slider :global(.swiper-pagination-bullet) {
   width: 12px;
