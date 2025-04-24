@@ -27,7 +27,7 @@ const Homepage = () => {
         </main>
         <aside className={cx('aside')}>
           <SupportedCountries className={cx('aside-widget')} />
-          <Calendar />
+          <Calendar className={cx('calendar-sticky')}/>
         </aside>
       </Container>
       <OurDrivers />

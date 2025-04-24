@@ -23,3 +23,8 @@
 .aside-widget:last-child {
   margin-bottom: 0;
 }
+
+.calendar-sticky {
+  position: sticky;
+  top: 100px;
+}

@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind'
 import {DayPicker} from 'react-day-picker'
 import {useState} from 'react'
+import PropTypes from 'prop-types'
 
 import {calendar} from '../../constants/widgets'
 import Icon from '../../components/Icon'
@@ -10,14 +11,14 @@ import styles from './Calendar.module.css';
 
 const cx = classNames.bind(styles);
 
-const Calendar = () => {
+const Calendar = ({className}) => {
   const [selected, setSelected] = useState();
   const onOrderBtnClick = () => {
     alert(`Обрані дати: ${JSON.stringify(selected)}`)
   }
 
   return (
-    <div className={cx('calendar')}>
+    <div className={cx('calendar', className)}>
       <h3 className={cx('title')}>{calendar.title}</h3>
       <div className={cx('calendar-wrapper')}>
         <button
@@ -54,6 +55,10 @@ const Calendar = () => {
       </div>
     </div>
   )
+}
+
+Calendar.propTypes = {
+  className: PropTypes.string
 }
 
 export default Calendar
