@@ -9,6 +9,8 @@ import SocialMedia from '../../components/SocialMedia'
 import OurDrivers from '../../widgets/OurDrivers'
 import Service from '../../widgets/Service'
 import Testimonials from '../../widgets/Testimonials'
+import Calendar from '../../widgets/Calendar'
+import SupportedCountries from '../../widgets/SupportedCountries'
 
 import styles from './Homepage.module.css'
 const cx = classNames.bind(styles)
@@ -24,7 +26,8 @@ const Homepage = () => {
           <SocialMedia />
         </main>
         <aside className={cx('aside')}>
-          Aside block will be soon
+          <SupportedCountries className={cx('aside-widget')} />
+          <Calendar />
         </aside>
       </Container>
       <OurDrivers />

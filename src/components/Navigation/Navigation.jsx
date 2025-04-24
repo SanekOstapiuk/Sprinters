@@ -18,8 +18,6 @@ const Navigation = ({menu}) => {
   )
 }
 
-export default Navigation
-
 Navigation.propTypes = {
   menu: PropTypes.arrayOf(
     PropTypes.shape({
@@ -29,3 +27,5 @@ Navigation.propTypes = {
     })
   ).isRequired
 }
+
+export default Navigation

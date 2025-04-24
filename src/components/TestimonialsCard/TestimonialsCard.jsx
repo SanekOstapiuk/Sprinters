@@ -30,8 +30,6 @@ const TestimonialsCard = ({photo = defaultPeoplePhoto, name, city, date, text, r
   )
 }
 
-export default TestimonialsCard
-
 TestimonialsCard.propTypes = {
   photo: PropTypes.string,
   name: PropTypes.string.isRequired,
@@ -40,3 +38,5 @@ TestimonialsCard.propTypes = {
   text: PropTypes.string,
   rating: PropTypes.number,
 }
+
+export default TestimonialsCard

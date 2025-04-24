@@ -20,11 +20,11 @@ const AchievementCard = ({icon, label, value, iconColor}) => {
   )
 }
 
-export default AchievementCard
-
 AchievementCard.propTypes = {
   icon: PropTypes.string,
   label: PropTypes.string,
   value: PropTypes.string,
   iconColor: PropTypes.string
 }
+
+export default AchievementCard

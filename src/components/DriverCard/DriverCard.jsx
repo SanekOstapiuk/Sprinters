@@ -27,11 +27,11 @@ const DriverCard = ({ photo = defaultPeoplePhoto, name, experience, social, icon
   )
 }
 
-export default DriverCard
-
 DriverCard.propTypes = {
   photo: PropTypes.string,
   name: PropTypes.string,
   exp: PropTypes.string,
   social: PropTypes.object
 }
+
+export default DriverCard

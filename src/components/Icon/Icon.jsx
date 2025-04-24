@@ -11,11 +11,11 @@ const Icon = ({ name, size = 24, color = 'currentColor', className }) => (
   </svg>
 )
 
-export default Icon
-
 Icon.propTypes = {
   name: PropTypes.string.isRequired,
   size: PropTypes.number,
   color: PropTypes.string,
   className: PropTypes.string
 }
+
+export default Icon

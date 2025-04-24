@@ -16,6 +16,7 @@
   --neutrals-10: #F8F8FD;
   --neutrals-0: #FFF;
   --brands-primary: #4640DE;
+  --brands-secondary: #CCCCF5;
   --blue: #26a4ff;
   --dark-blue: #302c9d;
   --soap: #D0D4EA;
@@ -80,4 +81,42 @@ a {
 
 a:hover {
   color: var(--blue);
+}
+
+.rdp-caption_label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--neutrals-100);
+}
+
+.rdp-weekday {
+  text-align: left;
+  font-size: 14px;
+  color: var(--neutrals-60);
+  opacity: 1;
+}
+
+.rdp-day {
+  font-weight: 500;
+  color: var(--neutrals-100);
+}
+
+.rdp-day:hover,
+.rdp-day.selected {
+  background-color: var(--brands-primary);
+  color: var(--neutrals-0);
+  border-radius: 50%;
+  border: none;
+}
+
+.rdp-disabled {
+  color: var(--neutrals-20);
+  font-weight: 500;
+  opacity: 1;
+}
+
+.rdp-disabled:hover {
+  background-color: var(--neutrals-0);
+  color: var(--neutrals-20);
 }

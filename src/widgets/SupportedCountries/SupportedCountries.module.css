@@ -1,0 +1,19 @@
+.root {
+	display: block;
+}
+
+.title {
+	margin-bottom: 32px;
+}
+
+.item {
+	overflow: hidden;
+	display: block;
+	line-height: 32px;
+}
+
+.icon {
+	width: 48px;
+	float: left;
+	margin-right: 16px;
+}

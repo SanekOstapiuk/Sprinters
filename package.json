@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
+    "country-flag-icons": "^1.5.18",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
+    "react-day-picker": "^9.6.7",
     "react-dom": "^19.0.0",
     "swiper": "^11.2.6"
   },

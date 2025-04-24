@@ -15,10 +15,10 @@ const Button = ({theme = 'main', className, children}) => {
   )
 }
 
-export default Button
-
 Button.propTypes = {
   theme: PropTypes.oneOf(['main', 'main-revert']),
   className: PropTypes.string,
   children: PropTypes.node
 }
+
+export default Button
